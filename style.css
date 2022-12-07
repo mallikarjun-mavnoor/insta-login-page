@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bgcolor: #fafafa;
+    --btncolor: #0095f6;
+    --fbcolor: #385185;
+    --phcolor: #8e8e8e;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: var(--bgcolor);
+}
+
+.container {
+    margin: 0 5px;
+}
+
+.box1,
+.box2,
+.box3 {
+    max-width: 350px;
+    margin: 14px auto;
+    box-sizing: border-box;
+}
+
+.box1,
+.box2 {
+    background-color: #ffffff;
+}
+
+/* --------- BOX 1 ELEMENTS --------- */
+
+/* Instagram Text Logo  */
+#insta-logo {
+    width: 58%;
+    margin: 20px auto 50px auto;
+    margin-bottom: 15px;
+    filter: opacity(88%);
+}
+
+
+/* Box 1 | Container */
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px lightgrey solid;
+    padding: 8px 0;
+}
+
+/* Box 1 | All Child Elements */
+.box1 * {
+    width: 70%;
+}
+
+input {
+    border: 1px lightgrey solid;
+    border-radius: 2.5px;
+    margin: 4px 0;
+}
+
+input[type="text"],
+input[type="password"] {
+    background-color: #fafafa;
+    padding: 11px;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+input:focus {
+    border: 1px lightgrey solid;
+}
+
+button {
+    padding: 8px 0;
+    border: none;
+    background-color: var(--btncolor);
+    color: white;
+    border-radius: 3px;
+    margin-top: 10px;
+    width: 76% !important;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3a9bcc;
+}
+
+hr {
+    border: none;
+}
+
+hr {
+    display: block;
+    border: 1px inset;
+    overflow: hidden;
+    margin: 20px 0 10px 0;
+    width: 76% !important;
+    filter: opacity(60%);
+}
+
+#or {
+    text-align: center;
+    position: relative;
+    bottom: 22px;
+    background-color: var(--bgcolor);
+    display: inline-block;
+    width: 60px !important;
+    color: var(--phcolor);
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.fb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fb-logo {
+    width: 11%;
+}
+
+#fb-text {
+    color: var(--fbcolor);
+    width: auto !important;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 4px;
+}
+
+#fb-text2 {
+    color: var(--fbcolor);
+    width: auto !important;
+    font-size: 12px;
+    margin: 20px 0;
+}
+
+#fb-text a {
+    text-decoration: none;
+    color: #385185;
+}
+
+#fb-text2 a {
+    text-decoration: none;
+    color: #385185;
+}
+
+/* --------- BOX 2 ELEMENTS --------- */
+
+/* Box 2 | Container */
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px lightgrey solid;
+    padding: 20px 0;
+}
+
+#box2-text {
+    font-size: 14px;
+}
+
+#box2-text a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* --------- BOX 3 ELEMENTS --------- */
+
+/* Box 3 | Container */
+.box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 .apps img {
+    width: 150px;
+}
+
+.apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
